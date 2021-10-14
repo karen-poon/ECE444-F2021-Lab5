@@ -4,38 +4,16 @@ Name: Karen Poon
 
 This repo is a clone of https://github.com/nelaturuk/education_pathways.
 
-## Description
-Welcome to CARTE's in-development tool for course selection at UofT. Education Pathways allows for more intelligent course searching, by matching not just the terms you search, but ones relevant to them. The more terms you search for, the more relevant your results will be! Even try searching across disciplines for the courses that best cover each.
+## Activity 1
+![activity1](https://user-images.githubusercontent.com/48849101/137406735-a0445ee5-9827-4b64-bbc6-0d8d5158ec97.PNG)
 
-Whatever year you are looking for, Education Pathways will also suggest courses in earlier years that will best help you to prepare. To get the most out of this, try searching for courses in a later year and see what is suggested for your current one.
+## Activity 2-5
+### Home Page
+![activity2-5_home](https://user-images.githubusercontent.com/48849101/137406754-07c2c9f4-dc34-42e1-b200-dbc7005aa92b.PNG)
 
-We are looking for feedback to improve Education Pathways and make it more useful for students. If you have ideas or suggestions, please email us!
+### Result Page
+![activity2-5_result1](https://user-images.githubusercontent.com/48849101/137406762-e241e3d2-adeb-4797-b6e5-5a57713fa8ac.PNG)
+![activity2-5_result2](https://user-images.githubusercontent.com/48849101/137406771-3e5f560f-5831-494d-b123-32d260b6d527.PNG)
 
-## Setup Instructions
-
-### With Docker
-
-
-
-## Repository files:
-
-`./Procfile ./wsgi.py` *tells gunicorn how to run the program*
-
-`./environment.yml  ./requirements.txt` *specifies python requirements for anaconda and pip respectively*
-
-`./__init__.py` *main flask code*
-
-`./readme.md` *this file*
-
-`./resources:` *contains datasets used in the program*
-
-`course_vectorizer.pickle df_processed.pickle`
-
-`course_vectors.npz       graph.pickle`
-
-`./static:` *contains any static elements of the webpage, in this case just the CARTE logo*
-`CARTE_logo.jpg`
-
-`./templates:` *contains flask templates for rendering HTML*
-
-`_formhelpers.html course.html       index.html        results.html`
+## Activity 6
+In the old UI, the text and tables are touching the edge of the browser. In the new UI, margins and paddings are introduced to provide space around the body of the page, which gives breathing space between elements and the page border.
